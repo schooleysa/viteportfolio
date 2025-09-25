@@ -10,14 +10,19 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@mantine/carousel": "^8.3.2",
     "@mantine/core": "^8.3.1",
     "@mantine/hooks": "^8.3.1",
+    "embla-carousel": "^8.5.2",
+    "embla-carousel-react": "^8.5.2",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-scroll": "^1.9.3"
   },
   "devDependencies": {
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
+    "@types/react-scroll": "^1",
     "@vitejs/plugin-react": "^5.0.2",
     "postcss": "^8.5.6",
     "postcss-preset-mantine": "1.18.0",

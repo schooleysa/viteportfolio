@@ -16,5 +16,14 @@ const myColor: MantineColorsTuple = [
 export const theme = createTheme({
   colors: {
     myColor,
-  }}
+  },
+
+  // fontSizes: {
+  //   xs: '0.5rem',
+  //   sm: '0.75rem',
+  //   md: '1rem',
+  //   lg: '2.5rem',
+  //   xl: '5rem',
+  // }
+}
 );
