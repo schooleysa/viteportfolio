@@ -1,11 +1,12 @@
 import "@mantine/core/styles.css";
 import '@mantine/carousel/styles.css';
 
-import { Flex, Text, MantineProvider, Stack, Image, Title } from "@mantine/core";
+import { Flex, Text, MantineProvider, Stack, Image, Title, Anchor } from "@mantine/core";
 import { theme } from "./theme";
 import NavBar from "./NavBar";
 import { useMediaQuery } from "@mantine/hooks";
 import { CommunitechCarousel } from "./Carousel";
+import SkillsAccordion from "./Accordion";
 
 export default function App() {
   const isSm = useMediaQuery('(min-width: 768px)');
@@ -72,25 +73,40 @@ export default function App() {
     <Flex w="100%" id="Skills" bg="#0068b6" justify="center">
       <Stack w="100%" maw="1350px" p="xl" c="white" justify="center">
         <Title w="100%" style={{textAlign: "center"}} order={2} fz={48}>Skills</Title>
-        <Text fz={"24px"}>sdfjskdfhsdkjfhksdjhf</Text>
-        <Text fz={"24px"}>kd jhskdfjh ksdjhf ksjdhf jsagdjf hsdakfjh aksdjfg jahsdgf kajsdhf kasjdhf kjasghdfj adhs</Text>
-        <Text fz={"24px"}>dasfdsf dfs jhdsf kjhadsif haisduf iasdfg hasdgf asdgfiasgdkfhcgasdkhfgc kasdhg fkashefgd ksdhgf kadhsfg s</Text>
+        <SkillsAccordion />
       </Stack>
     </Flex>
     <Flex w="100%" id="Education" bg="#cbedff" justify="center">
       <Stack w="100%" maw="1350px" p="xl" justify="center">
         <Title w="100%" style={{textAlign: "center"}} order={2} fz={48}>Education</Title>
-        <Text fz={"24px"}>sdfjskdfhsdkjfhksdjhf</Text>
-        <Text fz={"24px"}>kd jhskdfjh ksdjhf ksjdhf jsagdjf hsdakfjh aksdjfg jahsdgf kajsdhf kasjdhf kjasghdfj adhs</Text>
-        <Text fz={"24px"}>dasfdsf dfs jhdsf kjhadsif haisduf iasdfg hasdgf asdgfiasgdkfhcgasdkhfgc kasdhg fkashefgd ksdhgf kadhsfg s</Text>
+        <Text fz={"24px"}><b>Bachelor of Music</b> - Wilfrid Laurier University (2012-2016)</Text>
+        <Text fz={"24px"}><b>Web Development Certificate</b> - Juno College of Technology (2021)</Text>
       </Stack>
     </Flex>
     <Flex w="100%" id="Contact" bg="#0079cd" justify="center">
-      <Stack w="100%" maw="1350px" p="xl" c="white" justify="center">
-        <Title w="100%" style={{textAlign: "center"}} order={2} fz={48}>Contact</Title>
-        <Text fz={"24px"}>sdfjskdfhsdkjfhksdjhf</Text>
-        <Text fz={"24px"}>kd jhskdfjh ksdjhf ksjdhf jsagdjf hsdakfjh aksdjfg jahsdgf kajsdhf kasjdhf kjasghdfj adhs</Text>
-        <Text fz={"24px"}>dasfdsf dfs jhdsf kjhadsif haisduf iasdfg hasdgf asdgfiasgdkfhcgasdkhfgc kasdhg fkashefgd ksdhgf kadhsfg s</Text>
+      <Stack w="100%" maw="1350px" p="xl" c="white" justify="center" align="center">
+        {/* <Title w="100%" style={{textAlign: "center"}} order={2} fz={48}>Contact</Title> */}
+        <Text fz={"24px"}>Have an idea you want to see brought to life?  Let's Chat!</Text>
+        <Flex w={isSm ? "50%" : "100%"} justify={"space-around"} gap={24}>
+          <Anchor href="https://www.linkedin.com/in/stephen-schooley-6b84b4208/" target="_blank" maw={"50px"} w={"100%"} h={"auto"}>
+            <Image 
+              src="src/assets/linkedin.png"
+              alt={"LinkedIn Logo"}
+            />
+          </Anchor>
+          <Anchor href="https://github.com/schooleysa" target="_blank" w={"100%"} maw={"50px"} h={"auto"}>
+            <Image 
+              src="src/assets/github.png"
+              alt={"Github Logo"}
+            />
+          </Anchor>
+          <Anchor href="mailto:schooley.sa@gmail.com" w={"100%"} maw={"50px"} h={"auto"}>
+            <Image 
+              src="src/assets/email.png"
+              alt={"Email Icon"}
+            />
+          </Anchor>
+        </Flex>
       </Stack>
     </Flex>
   </MantineProvider>;

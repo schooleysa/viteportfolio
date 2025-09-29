@@ -17,7 +17,7 @@ export const theme = createTheme({
   colors: {
     myColor,
   },
-
+  fontFamily: "Raleway"
   // fontSizes: {
   //   xs: '0.5rem',
   //   sm: '0.75rem',

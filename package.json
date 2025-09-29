@@ -13,10 +13,13 @@
     "@mantine/carousel": "^8.3.2",
     "@mantine/core": "^8.3.1",
     "@mantine/hooks": "^8.3.1",
+    "@react-pdf/renderer": "^4.3.1",
     "embla-carousel": "^8.5.2",
     "embla-carousel-react": "^8.5.2",
+    "pdfjs-dist": "3.9.179",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-pdf": "^10.1.0",
     "react-scroll": "^1.9.3"
   },
   "devDependencies": {

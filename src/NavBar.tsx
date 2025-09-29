@@ -1,5 +1,5 @@
 import "@mantine/core/styles.css";
-import { Anchor, Burger, Button, Drawer, Flex, Group, ScrollArea } from "@mantine/core";
+import { Anchor, Burger, Text, Drawer, Flex, Group, ScrollArea } from "@mantine/core";
 import { useDisclosure } from '@mantine/hooks';
 import { Link } from "react-scroll";
 
@@ -27,7 +27,15 @@ export default function NavBar() {
               spy={true}
               offset={-70} // adjust for navbar height
             >
-              <Anchor variant="transparent" c="white" fz={24}>{section}</Anchor>
+               <Text 
+                  c="white" 
+                  fz={24}   
+                  style={{
+                    cursor: "pointer",
+                  }}
+                >
+                  {section}
+                </Text>
             </Link>
           ))}
         </Group>
@@ -83,7 +91,15 @@ export default function NavBar() {
                 offset={-70}
                 onClick={close} // closes the drawer
               >
-                <Anchor variant="transparent" c="white" fz={24}>{section}</Anchor>
+                <Text 
+                  c="white" 
+                  fz={24}   
+                  style={{
+                    cursor: "pointer",
+                  }}
+                >
+                  {section}
+                </Text>
               </Link>
             ))}
           </Flex>
