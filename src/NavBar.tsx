@@ -1,7 +1,9 @@
 import "@mantine/core/styles.css";
-import { Anchor, Burger, Text, Drawer, Flex, Group, ScrollArea } from "@mantine/core";
+import { Burger, Text, Drawer, Flex, Group, ScrollArea } from "@mantine/core";
 import { useDisclosure } from '@mantine/hooks';
 import { Link } from "react-scroll";
+import classes from "../src/HoverText.module.css";
+
 
 export default function NavBar() {
   const [opened, { toggle, close }] = useDisclosure(false);
@@ -27,10 +29,13 @@ export default function NavBar() {
               spy={true}
               offset={-70} // adjust for navbar height
             >
-               <Text 
+               <Text
+                  className={classes.hoverText}
                   c="white" 
-                  fz={24}   
+                  fz={24}
                   style={{
+                    position: "relative",
+                    display: "inline-block",
                     cursor: "pointer",
                   }}
                 >

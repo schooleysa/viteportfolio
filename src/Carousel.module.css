@@ -1,0 +1,19 @@
+.control {
+    &[data-inactive] {
+      opacity: 0;
+      cursor: default;
+    }
+  }
+  .indicator {
+    width: 12px;
+    height: 6px;
+    transition: width 250ms ease;
+    background-color: rgb(0, 121, 205) !important;
+    &[data-active] {
+      width: 40px;
+    }
+  }
+
+  .mantine-Carousel-control {
+    background-color: rgb(0, 121, 205) !important;
+  }
