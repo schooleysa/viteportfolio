@@ -29,7 +29,7 @@ export function CommunitechCarousel() {
               <Text w="100%" fz="16">My primary focus at Communitech has been the creation of the ElevateIP Portal, a MERN app that allows for 5 different user groups to interact and manage all stages of the program.  The Frontend is built on React and TypeScript to provide a modern and relaible UI/UX, and integrates a number of other external libraries and API's such as Google Maps.  Designs were provided in Figma files and accurately reproduced as dozens of fully functional and responsive pages.</Text>
               <AspectRatio ratio={16 / 9} flex={1}>
                 <Image 
-                  src="src/assets/eip1.png"
+                  src="/eip1.png"
                   alt={"A Screenshot of the Elevate IP Portals homepage"}
                 />
               </AspectRatio>
@@ -40,7 +40,7 @@ export function CommunitechCarousel() {
             <Text w="100%" fz="16">The Backend is built with Node.js and Express.js, and JWT is used for user authentication.  The integrity of the data is ensured through both Frontend and Backend verifictions, and it is securely in a MongoDB database.  There are a myriad of CRUD operations that can be carried out by the various User groups, using proven development and design patterns, to advance or reject the application at the many necessary stages of administration.  Conditionally rendered UI's based on the Backend data ensure an application's status is kept up to date for all user groups, and automated communications based on the actions taken are sent to the relevant users via NodeMailer integration.</Text>
             <AspectRatio ratio={16 / 9} flex={1}>
               <Image 
-                src="src/assets/eip3.png"
+                src="/eip3.png"
                 alt={"A Screenshot of the Elevate IP Portal"}
               />
               </AspectRatio>
@@ -51,7 +51,7 @@ export function CommunitechCarousel() {
             <Text w="100%" fz="16">Deployment of the portal, both on the developement and production servers, is handled through a number of Amazon Web Services and triggered via a GitHub Action.  Hosted on an AWS EC2 and utilizing CodePipeline and CodeDeploy ensures seemingless server updates are pushed with no server downtime and no impact on live users.</Text>
             <AspectRatio ratio={16 / 9} flex={1}>
               <Image 
-                src="src/assets/eip2.png"
+                src="/eip2.png"
                 alt={"A Screenshot of the Elevate IP Portal"}
               />
               </AspectRatio>

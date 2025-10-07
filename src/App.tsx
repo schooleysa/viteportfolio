@@ -6,7 +6,7 @@ import { theme } from "./theme";
 import NavBar from "./NavBar";
 import { useMediaQuery } from "@mantine/hooks";
 import { CommunitechCarousel } from "./Carousel";
-import SkillsAccordion from "./Accordion";
+import SkillsAccordion from "../public/Accordion";
 
 export default function App() {
   const isSm = useMediaQuery('(min-width: 768px)');
@@ -17,7 +17,7 @@ export default function App() {
       style={{
         height: isSm ? "100vh" : "fit-content",
         maxHeight: "750px",
-        backgroundImage: `url('src/assets/vsCodeBackground.png')`,
+        backgroundImage: `url('/vsCodeBackground.png')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -41,7 +41,7 @@ export default function App() {
           <div style={{borderRadius: "100%", height: "fit-content", width: "fit-content", background: "white", }}>
             <Image
               radius="100%"
-              src="src/assets/Headshot.png"
+              src="/Headshot.png"
               pos="relative"
               alt="Stephen Schooley headshot"
               left={{base: 0, sm: 20}}
@@ -94,7 +94,7 @@ export default function App() {
               <Image 
                 w={"50px"}  
                 h={"50px"} 
-                src="src/assets/linkedin.png"
+                src="/linkedin.png"
                 alt={"LinkedIn Logo"}
               />
               {/* <Text>My LinkedIn</Text> */}
@@ -105,7 +105,7 @@ export default function App() {
               <Image
                 w={"50px"}  
                 h={"50px"}              
-                src="src/assets/github.png"
+                src="/github.png"
                 alt={"Github Logo"}
               />
               {/* <Text>My GitHub</Text> */}
@@ -116,7 +116,7 @@ export default function App() {
               <Image 
                 w={"50px"}  
                 h={"50px"}
-                src="src/assets/email.png"
+                src="/email.png"
                 alt={"Email Icon"}
               />
               {/* <Text>schooley.sa@gmail.com</Text> */}
@@ -127,7 +127,7 @@ export default function App() {
               <Image 
                 w={"50px"}  
                 h={"50px"}
-                src="src/assets/phone.png"
+                src="/phone.png"
                 alt={"Phone Icon"}
               />
               {/* <Text>+1 226 341 8098</Text> */}

@@ -29,7 +29,7 @@ export default function SkillsAccordion() {
                 </Paper>
                 <Paper shadow="xl" c="black" p="xl" maw={"200px"}>
                   <Stack justify='center' align='center' h={"100%"}>
-                    <Image w={"100%"} src="src/assets/mongo.png" alt="MongoDB Logo"/>
+                    <Image w={"100%"} src="/mongo.png" alt="MongoDB Logo"/>
                     <Text fz={18}>MongoDB</Text>
                   </Stack>
                 </Paper>
@@ -41,7 +41,7 @@ export default function SkillsAccordion() {
                 </Paper>
               <Paper shadow="xl" c={"black"} p="xl" maw={"200px"}>
                 <Stack justify='center' align='center' h={"100%"}>
-                  <Image w={"100%"} src="src/assets/cloud-api.png" alt="API"/>
+                  <Image w={"100%"} src="/cloud-api.png" alt="API"/>
                   <Text fz={18}>API Integrations</Text>
                 </Stack>
               </Paper>
@@ -66,7 +66,7 @@ export default function SkillsAccordion() {
                 </Paper>
                 <Paper shadow="xl" c={"black"} p="xl" maw={"200px"}>
                   <Stack justify='center' align='center' h={"100%"}>
-                    <Image w={"100%"} src="/src/assets/typescript.png" alt="TypeScript Logo"/>
+                    <Image w={"100%"} src="/typescript.png" alt="TypeScript Logo"/>
                     <Text fz={18}>TypeScript</Text>
                   </Stack>
                 </Paper>
@@ -84,13 +84,13 @@ export default function SkillsAccordion() {
                 </Paper>
                 <Paper shadow="xl" c={"black"} p="xl" maw={"200px"}>
                   <Stack justify='center' align='center' h={"100%"}>
-                    <Image w={"100%"} src="/src/assets/figma.png" alt="Figma Logo"/>
+                    <Image w={"100%"} src="/figma.png" alt="Figma Logo"/>
                     <Text fz={18}>Figma/Design Execution</Text>
                   </Stack>
                 </Paper>
                 <Paper shadow="xl" c={"black"} p="xl" maw={"200px"}>
                   <Stack justify='center' align='center' h={"100%"}>
-                    <Image w={"100%"} src="/src/assets/mantine-seeklogo.png" alt="Mantine Logo"/>
+                    <Image w={"100%"} src="/mantine-seeklogo.png" alt="Mantine Logo"/>
                     <Text fz={18}>Mantine/Component Libraries</Text>
                   </Stack>
                 </Paper>
@@ -109,37 +109,37 @@ export default function SkillsAccordion() {
             <Flex gap={24} justify="center" align={isVSm ? 'stretch' : "center"} wrap={"wrap"} direction={{ base: 'row', sm: 'row' }}>
               <Paper shadow="xl" c={"black"} p="xl" maw={"200px"}>
                 <Stack justify='center' align='center' h={"100%"}>
-                  <Image w={"100%"} src="/src/assets/docker.png" alt="Docker Logo"/>
+                  <Image w={"100%"} src="/docker.png" alt="Docker Logo"/>
                   <Text fz={18}>Docker/Docker Compose</Text>
                 </Stack>
               </Paper>
               <Paper shadow="xl" c={"black"} p="xl" maw={"200px"}>
                 <Stack justify='center' align='center' h={"100%"}>
-                  <Image w={"100%"} src="src/assets/github-actions-logo-512.png" alt="GitHub Actions Logo"/>
+                  <Image w={"100%"} src="/github-actions-logo-512.png" alt="GitHub Actions Logo"/>
                   <Text fz={18}>GitHub Actions</Text>
                 </Stack>
               </Paper>
               <Paper shadow="xl" c={"black"} p="xl" maw={"200px"}>
                 <Stack justify='center' align='center' h={"100%"}>
-                  <Image w={"100%"} src="src/assets/EC2.png" alt="AWS EC2 Logo"/>
+                  <Image w={"100%"} src="/EC2.png" alt="AWS EC2 Logo"/>
                   <Text fz={18}>AWS EC2</Text>
                 </Stack>
               </Paper>
               <Paper shadow="xl" c={"black"} p="xl" maw={"200px"}>
                 <Stack justify='center' align='center' h={"100%"}>
-                  <Image w={"100%"} src="/src/assets/Simple Storage Service.png" alt="AWS S3 Logo"/>
+                  <Image w={"100%"} src="/Simple Storage Service.png" alt="AWS S3 Logo"/>
                   <Text fz={18}>AWS S3</Text>
                 </Stack>
               </Paper>
               <Paper shadow="xl" c={"black"} p="xl" maw={"200px"}>
                 <Stack justify='center' align='center' h={"100%"}>
-                  <Image w={"100%"} src="src/assets/CodePipeline.png" alt="AWS CodePipeline Logo"/>
+                  <Image w={"100%"} src="/CodePipeline.png" alt="AWS CodePipeline Logo"/>
                   <Text fz={18}>AWS CodePipeline</Text>
                 </Stack>
               </Paper>
               <Paper shadow="xl" c={"black"} p="xl" maw={"200px"}>
                 <Stack justify='center' align='center' h={"100%"}>
-                  <Image w={"100%"} src="src/assets/CodeDeploy.png" alt="AWS CodeDeploy Logo"/>
+                  <Image w={"100%"} src="/CodeDeploy.png" alt="AWS CodeDeploy Logo"/>
                   <Text fz={18}>AWS CodeDeploy</Text>
                 </Stack>
               </Paper>
